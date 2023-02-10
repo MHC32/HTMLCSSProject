@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+   --color-pale-blue: hsl(225, 100%, 94%);
+   --color-bright-blue: hsl(245, 75%, 52%);
+
+   --color-very-pale-blue: hsl(225, 100%, 98%);
+   --color-desaturated: hsl(224, 23%, 55%);
+   --color-dark-blue: hsl(223, 47%, 23%);
+
+   --font-size: 16px
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Red Hat Display", sans-serif;
+    background: var(--color-pale-blue);
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 35%;
+    height: 90%;
+    background-color: white;
+    border-radius: 15px;
+    padding: 0;
+    padding: 0;
+}
+
+.header-image{
+    width: 100%;
+    height: 35%;
+    background: url(./images/illustration-hero.svg);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    
+}
+
+.body-text{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+   
+}
+
+.body-text > h1 {
+    color: var(--color-dark-blue);
+    font-size: 26px;
+    padding: 20px 0px 0px 20px;
+    text-align: center;
+}
+
+.body-text > p {
+    padding: 20px 60px 20px 50px;
+    color: var(--color-desaturated);
+    font-size: var(--font-size);
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+}
+
+.box {
+    width: 75%;
+    height: 90px;
+    background: var(--color-very-pale-blue);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.icon{
+    width: 50px;
+    height: 60px;
+    margin: 20px 0px auto 10px ;
+}
+
+.title-price{
+    width: 190px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 15px ;
+}
+
+.text-plan {
+    font-weight: 900;
+    color: var(--color-dark-blue);
+    margin: 0px 0px 4px 0px;
+}
+
+.text-price{
+    color: var(--color-desaturated);
+    font-weight: 300;
+}
+
+.links {
+    width: 130px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    width: 100%;
+    height: 30%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.btn-payment {
+    width: 74%;
+    height: 50px;
+    background-color: var(--color-bright-blue);
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:30px ;
+}
+
+.text-btn {
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.cancel-btn {
+    color: var(--color-desaturated);
+    font-size: 14px;
+    font-weight: 700;
+
+}
+
+
+
+
