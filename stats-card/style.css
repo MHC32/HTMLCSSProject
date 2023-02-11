@@ -9,3 +9,48 @@
     --color-Slightly-transparent-white-main-paragraph: hsla(0, 0%, 100%, 0.75);
     --color-Slightly-transparent-white-stat-headings: hsla(0, 0%, 100%, 0.6)
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: var(--color-Very-dark-blue-main-background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 90%;
+    height: 60vh;
+    background: var(--color-Dark-desaturated-blue-card-background);
+    border-radius: 13px;
+    display: flex;
+    flex-direction: row;
+}
+
+.box1 {
+    width: 60%;
+    height: 100%;
+    background: var(--color-White-main-heading-stats);
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+    padding: 20px;
+}
+
+.box2 {
+
+    width: 40%;
+    height: 100%;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+}
+
+img{
+    width: 100%;
+}
