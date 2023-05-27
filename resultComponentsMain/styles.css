@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    /* COLOR PRIMARY */
+    --color-light-red: hsl(0, 100%, 67%);
+    --color-orangey-yellow: hsl(39, 100%, 56%);
+    --color-green-teal: hsl(166, 100%, 37%);
+    --color-cobalt-blue: hsl(234, 85%, 45%);
+
+    /* COLOR NEUTRAL */
+    --color-white: hsl(0, 0%, 100%);
+    --color-pale-blue: hsl(221, 100%, 96%);
+    --color-light-lavender: hsl(241, 100%, 89%);
+    --color-dark-gray-blue: hsl(224, 30%, 27%);
+
+    /* GRADIENTS */
+                            /* GRADIENT BACKGROUND */
+    --gradient-light-slate-blue-background: hsl(252, 100%, 67%);
+    --gradient-light-royal-blue-background: hsl(241, 81%, 54%);
+                            /* GRADIENT CIRCLE */
+    --gradient-violet-blue-circle: hsla(256, 72%, 46%, 1);
+    --gradient-persian-blue-circle: hsla(241, 72%, 46%, 0);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: var(--color-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+
+.container {
+    width: 43vw;
+    height: 50vh;
+    border-radius: 19px;
+    background: var(--color-white);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.container div { 
+    width: 48%;
+    height:100%;
+}
+
+
+.left {
+    background: linear-gradient(#7452ff,#2e2be9 );
+    border-radius: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.left h4 {
+    color: var(--color-light-lavender);
+}
+
+.left .circle{
+      width: 140px;
+      height: 140px;
+      background: linear-gradient(#4e21ca,#2421ca);
+      border-radius: 50%;
+}
+
+.circle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.circle h1 {
+    font-size: 52px;
+    font-weight: 900;
+    color: var(--color-white);
+}
+
+.circle p {
+    color: var(--color-light-lavender);
+}
+
+
+.left .footer-card {
+    width: 75%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.left .footer-card  h3 {
+    font-size: 28px;
+    color: var(--color-white);
+}
+
+.left .footer-card  p{
+    text-align: center;
+    font-size: 15.3px;
+    font-weight: 400;
+    line-height: 17px;
+    color: var(--color-light-lavender);
+}
