@@ -166,3 +166,22 @@ button {
     }
 
   }
+
+
+  @media (max-width: 440px){
+    .container .center .right .container-text .text-1{
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .container .center .right .container-text .container-text2{
+        width: auto;
+       margin: 0 5% 0 7%;
+    }
+
+
+    .container .center .right .container-text .container-text2 .text-2{
+        font-size: 18px;
+        line-height: 27.66px;
+    }
+  }
