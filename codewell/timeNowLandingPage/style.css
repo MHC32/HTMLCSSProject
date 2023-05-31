@@ -90,12 +90,13 @@ header .right{
     justify-content: space-between;
 }
 
-.left > .container-btn button{
+.left > .container-btn button,
+.right > .header button{
     width: 200px;
-    height: 70px;
+    height: 60px;
     background: #1d1b67;
     border: none;
-    border-radius: 3px;
+    border-radius: 5px;
     color: #fff;
     font-weight: 700;
     font-size: 17px;
@@ -128,4 +129,28 @@ header .right{
     font-weight: 700;
     text-decoration: none; 
     border-bottom: 1.5px solid #4b5c6e;
+}
+
+.right >.header{
+    width: 100%;
+    height: 19%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.right > .header button{
+    margin-right: 20%;
+}
+
+
+.right > .container-img{
+    width: 80%;
+    height: 70%;
+    margin: 5% 10% 0 10% ;
+}
+
+.right > .container-img img {
+    width: 100%;
+    height: 100%;
 }
