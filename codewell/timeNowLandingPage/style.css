@@ -6,4 +6,126 @@
     --mid-blue: #3b60bf;
     --mid-green: #4b5c6e;
     --main-green: #005661;
+    --secondary-color1:#C4EEF2;
+    --secondary-color2:#48CAD9;
+    --secondary-color3:#1F2373;
+    --secondary-color4:#3A37A6;
+    --secondary-color:#4641D9;
+    --secondary-color5:#49BF7C;
+    --secondary-color6:#3D8BF2;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.container{
+    
+}
+
+.container > header {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+}
+
+header .left {
+    width: 50%;
+    height: 100%;
+}
+
+header .right{
+    width: 50%;
+    height: 100%;
+    background:#48CAD9
+}
+
+.left > ul {
+    display: flex;
+    margin: 8% 0 15% 10%;
+    align-items: center;
+}
+
+.left > ul li {
+    list-style: none;
+    margin-left: 5%;
+}
+
+.left > ul li a {
+    text-decoration: none;
+    font-weight: 200;
+    color: #4b5c6e;
+    font-size: 15px;
+}
+
+.left > ul li a:active{
+    color: #1F2373;
+}
+
+.left > h3 {
+    margin: 0 3% 2% 16%;
+    font-size: 50px;
+    color: #1d1b67;
+    line-height: 60px;
+}
+
+
+.left > p {
+    margin: 0 9% 0 16%;
+    font-weight: 300;
+    font-size: 19px;
+    color: #4b5c6e;
+}
+
+.left > .container-btn{
+    width: 55%;
+    height: 15%;
+    margin-left: 16%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left > .container-btn button{
+    width: 200px;
+    height: 70px;
+    background: #1d1b67;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.left > .container-btn p{
+    font-size: 18px;
+    font-weight: 700;
+    color: #4b5c6e;
+}
+
+.left > .container-text {
+    margin-left: 16%;
+    display: flex;
+    align-items: center;
+}
+
+.left > .container-text img {
+    margin-right: 2%;
+}
+
+.left > .container-text p {
+    font-weight: 300;
+    font-size: 15px;
+    color: #4b5c6e;
+}
+
+.left > .container-text p a {
+    color: #4b5c6e;
+    font-weight: 700;
+    text-decoration: none; 
+    border-bottom: 1.5px solid #4b5c6e;
 }
