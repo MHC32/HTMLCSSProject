@@ -158,12 +158,107 @@ header .right{
 }
 
 
+.container > section{
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left-side,
+.right-side {
+    width: 40%;
+    height: 100%;
+    display: flex;
+   justify-content: center;
+    flex-direction: column;
+}
+
+.left-side > h2 {
+    color: #1F2373;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.left-side > .container-img {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7%;
+}
 
 
 
+.left-side > .container-img .circle {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+  }
+
+  
+  
+
+  .left-side > .container-img .circle img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .right-side > p {
+    font-size: 19px;
+    color: #4b5c6e;
+    line-height: 29px;
+    font-weight: 300;
+    margin-bottom: 6%;
+  } 
+
+  section:last-child {
+    width: 100%;
+    height: 65vh;
+    background: #C4EEF2;
+    padding: 5% 8% 8% 4%;
+  }
+
+ .container section:last-child > .leftSide,
+  section:last-child > .rightSide {
+    width: 50%;
+    height: 100%;
+  }
 
 
+  section:last-child > .leftSide > p {
+    color: #3A37A6;
+    font-weight: 700;
+    font-size: 17px;
+    margin-bottom: 2%;
+  }
 
+  section:last-child > .leftSide h3 {
+    color: #005661;
+    font-size: 42px;
+    font-weight: 700;
+  }
+
+  section:last-child > .leftSide :nth-child(3){
+    color: #4b5c6e;
+    margin-top: 2%;
+    font-size: 20.36px;
+    font-weight: 300;
+    line-height: 29px;
+  }
+
+
+  section:last-child > .leftSide button{
+    width: 200px;
+    height: 60px;
+    background: #1d1b67;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 17px;
+    cursor: pointer;
+  }
 
 
 
