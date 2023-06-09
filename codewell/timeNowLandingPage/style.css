@@ -6,31 +6,130 @@
     --mid-blue: #3b60bf;
     --mid-green: #4b5c6e;
     --main-green: #005661;
-    --secondary-color1:#C4EEF2;
+    --color-Colibri:#C4EEF2;
     --secondary-color2:#48CAD9;
-    --secondary-color3:#1F2373;
-    --secondary-color4:#3A37A6;
-    --secondary-color:#4641D9;
-    --secondary-color5:#49BF7C;
-    --secondary-color6:#3D8BF2;
+    --color-Port-Goré:#1F2373;
+    --color-Gris-français:#C9C9CB;
+    --color-Bleuet: #4584EC;
+    --color-Scooter: #45CADB;
+    
+
+    /* //Font // */
+    --font-weight-normal: 300;
+    --font-weight-secondary: 700;
+    --font-size-normal: 18px;
+
 }
 
-*  {
-    padding: 0;
+
+* {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    font-family: "Inter";
 }
 
-header{
+
+header {
     width: 100vw;
-    height: 100vh;
-    font-family: 'Inter', sans-serif;
+    height: 75vh;
     display: flex;
 }
 
+header > .left,
+header > .right {
+    width: 50%;
+    height: 100%;
+}
+
+header > .left {
+    margin: 4% 10% 0 8% ;
+}
 
 
+header > .left ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 20%;
+}
 
+header > .left ul li {
+    margin-left: 4%;
+    color: var(--mid-green);
+    font-weight: var(--font-weight-normal);
+
+}
+
+header > .left h1 {
+    font-weight: 700;
+    font-size: 45px;
+    color: var(--color-Port-Goré);
+    margin-bottom: 2%;
+}
+
+
+header > .left .container-p {
+    width: 80%;
+    height: 15%;
+    margin-bottom: 2%;
+}
+
+header > .left .container-p p {
+    color: var(--mid-green);
+    font-weight: var(--font-weight-normal);
+    font-size: 17px;
+    line-height: 28px;
+}
+
+
+header > .left .container-button-text {
+    width: 60%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+header > .left .container-button-text button {
+    border: none;
+    border-radius: 5px;
+    width: 180px;
+    height: 60px;
+    background: var(--color-Port-Goré);
+    color: #FFF;
+    font-weight: var(--font-weight-secondary);
+    font-size: 16px;
+}
+
+
+header > .left .container-button-text p {
+    color: var(--mid-green);
+    font-weight: var(--font-weight-secondary);
+    font-size: 17px;
+}
+
+header > .left .container-img-text {
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+    
+}
+
+header > .left .container-img-text p {
+    margin-left: 2%;
+    color: var(--mid-green);
+    font-size: 17px;
+    font-weight: var(--font-weight-normal);
+}
+
+header > .left .container-img-text p span {
+    border-bottom: 2px solid var(--mid-green);
+    font-weight: var(--font-weight-secondary);
+    cursor: pointer;
+}
 
 
 
