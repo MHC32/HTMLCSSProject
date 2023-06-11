@@ -21,7 +21,23 @@
 
 }
 
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
 
+header {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+header > div {
+    width: 50%;
+    height: 100%;
+}
 
 
 
