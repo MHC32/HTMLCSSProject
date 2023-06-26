@@ -80,7 +80,7 @@ nav > .container-logo{
 
 
 nav > .container-button{
-    width: 15%;
+    width: 18%;
     height: 75%;
     display: flex;
     justify-content: space-between;
@@ -97,10 +97,10 @@ nav > .container-button{
     background: none;
 }
 
-/* .container-button > button.active{
+.container-button > button.active{
     width: 150px;
     height: 50px;
     border-radius: 30px;
     background: var(--color-Light-Blue);
     color: white;
-} */
+}
