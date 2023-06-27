@@ -29,8 +29,8 @@ header{
 
 header > nav {
     width: 100vw;
-    height: 25vh;
-    /* background: var(--color-Light-Blue); */
+    height: 20vh;
+ 
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -40,7 +40,7 @@ nav > img {
     width: 17%;
     height: auto;
     position: relative;
-    top: 18%;
+    top: 23%;
 }
 
 nav > ul {
@@ -61,7 +61,7 @@ nav > ul li a {
     color: black;
     margin-left: 30px;
     font-family: var(--font-outfit);
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 300;
 
 }
@@ -84,7 +84,7 @@ nav > .container-button{
 .container-button button {
     border: none;
     background: none;
-    font-size: 22px;
+    font-size: 20px;
     color: var(--color-Sky-Blue);
     font-weight: 600;
     cursor: pointer;
