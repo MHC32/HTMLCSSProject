@@ -98,3 +98,21 @@ nav > .container-button{
     background: var(--color-Light-Blue);
     
 }
+
+header > .container-banner{
+    width:100vw;
+    height: 76vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+   
+}
+
+.container-banner > section {
+    width: 90%;
+    height: 90%;
+    background: var(--color-Light-Blue);
+    display: flex;
+    justify-content: space-between;
+}
+
