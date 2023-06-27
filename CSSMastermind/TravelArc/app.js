@@ -1,5 +1,5 @@
 // Sélectionne tous les liens dans la liste
-const links = document.querySelectorAll('.container-navbar ul li a');
+const links = document.querySelectorAll('nav > ul li a');
 
 // Parcourt tous les liens
 links.forEach(link => {
@@ -26,3 +26,6 @@ links.forEach(button => {
     this.classList.add('active');
   });
 });
+
+
+
