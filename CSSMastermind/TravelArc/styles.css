@@ -27,13 +27,12 @@ header{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 header > nav {
-    width: 100vw;
-    height: 13vh;
- 
+    width: 100%;
+    height: 20%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -43,12 +42,12 @@ nav > img {
     width: 17%;
     height: auto;
     position: relative;
-    top: 23%;
+    top: 26%;
 }
 
 nav > ul {
     display: flex;
-    width: 46%;
+    width: 40%;
     justify-content: space-around;
 }
 
@@ -78,7 +77,7 @@ nav > ul li a.active{
 
 nav > .container-button{
     width: 18%;
-    height: 30%;
+    height: 70%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -87,15 +86,16 @@ nav > .container-button{
 .container-button button {
     border: none;
     background: none;
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 30px;
     color: var(--color-Sky-Blue);
     font-weight: 600;
     cursor: pointer;
 }
 
 .container-button button.active{
-    width: 65%;
-    height: 100%;
+    width: 62%;
+    height: 55%;
     color: white;
     border-radius: 27px;
     background: var(--color-Light-Blue);
@@ -103,34 +103,46 @@ nav > .container-button{
 }
 
 header > section {
-    width: 90vw;
-    height: 68vh;
+    width: 90%;
+    height: 80%;
     align-self: center;
     display: grid;
-    grid-template-areas:
-        "text1 img"
-        "text2 img";
-    grid-template-rows: 2fr 3fr;
-    grid-template-columns: 2fr 2fr;
-    gap: 10px;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 0.5fr;
+
 }
 
-header > section h1 {
-    grid-area: text1;
-    font-family: var(--font-jua);
-    font-size: 52px;
-    line-height: 80px;
+section > .box1{
+    grid-column-start: 1 ;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background: var(--color-Dark-Slate-Gray);
+
+        
 }
 
-header > section p {
-    grid-area: text2;
+
+
+section > .box2{
+    grid-column-start: 3 ;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
-header > section img {
-    grid-area: img;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+
+
+section > .box3{
+    grid-column-start: 1 ;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background: var(--color-Light-Blue);
 }
 
 
