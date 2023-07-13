@@ -501,11 +501,32 @@ main .container .right {
 }
 
 
+.right .messages .message .profile-photo{
+    position: relative;
+    overflow: visible;
+}
+
+.right .profile-photo img {
+    border-radius: 50%;
+}
+
 
 .right .messages .message:last-child{
     margin: 0;
 }
 
+
 .right .messages .message p {
     font-size: 0.8rem;
+}
+
+.right .messages .message .profile-photo .active {
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    border: 3px solid var(--color-white);
+    background: var(--color-success);
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
